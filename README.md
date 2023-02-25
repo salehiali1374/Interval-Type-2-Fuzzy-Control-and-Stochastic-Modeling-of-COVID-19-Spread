@@ -17,9 +17,9 @@ The results show the robustness and efficiency of the proposed method in the pre
 The proposed approach explains how we should decide on social distancing and vaccination rate policies during pandemics against the prevalent uncertainties in disease detection and reporting.
 
 ## The S2EIAR model diagram
-! [](https://salehiali.ir/wp-content/uploads/2023/02/SEIAR-model-V4-Jan-23-2022-scaled.jpg)
+![](https://salehiali.ir/wp-content/uploads/2023/02/SEIAR-model-V4-Jan-23-2022-scaled.jpg)
 ## Structure of type-2 fuzzy controller for S2EIAR model. The dashed line shows the optimization of the fuzzy system by genetic algorithm
-! [](https://salehiali.ir/wp-content/uploads/2023/02/control-block-7.jpg)
+![](https://salehiali.ir/wp-content/uploads/2023/02/control-block-7.jpg)
 
 ## Requirements
 
@@ -36,6 +36,7 @@ To evaluate model, run 'Plotting_With_Shade.m' file at each folder.
 ## Results
 
 Our Controllers achieves the following MSE on :
+
                           |                           | _MSE<sup>\*</sup>_
 ------------------------- | ------------------------- | ------------------
 _1<sup>st</sup> Scenario_ | _2<sup>nd</sup> Scenario_
