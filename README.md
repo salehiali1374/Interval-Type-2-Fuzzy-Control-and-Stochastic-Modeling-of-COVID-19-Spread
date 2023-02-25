@@ -35,7 +35,7 @@ To evaluate model, run 'Plotting_With_Shade.m' file at each folder.
 
 ## Results
 
-Our Controllers achieves the following MSE on first scenario:
+MSE on first scenario:
 
 |  k                    | q      | _PD_    | _PID_ | _Type-1 Fuzzy_ | _Type-2 Fuzzy_ |  |
 | --------------------- | ------ | ------- | ----- | -------------- | -------------- |  |
@@ -50,7 +50,7 @@ Our Controllers achieves the following MSE on first scenario:
 | _0.75_                | _0.75_ | **5.7** | 5.8   | 6.4            | 6.2            |  |
 | \*multiplied by 1000. |
 
-Our Controllers achieves the following MSE on second scenario:
+MSE on second scenario:
 
 |  k                    |  q     | _PD_ | _PID_ | _Type-1 Fuzzy_ | _Type-2 Fuzzy_ |  |
 | --------------------- | ------ | ---- | ----- | -------------- | -------------- |  |
