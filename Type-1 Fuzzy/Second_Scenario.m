@@ -19,7 +19,7 @@ for iteration=1:10
     [in,out,rule] = getTunableSettings(vacc);
     fisTout1 = tunefis(vacc, [in;out;rule], @(vacc)customcostfcn(vacc), options);
 
-    save('second_scenario_optimization_'+string(iteration)+'q5_ka25.mat')
+    save('result/second_scenario_optimization_'+string(iteration)+'q5_ka25.mat')
     %% test
     I_un_std = [];
     x_std = [];

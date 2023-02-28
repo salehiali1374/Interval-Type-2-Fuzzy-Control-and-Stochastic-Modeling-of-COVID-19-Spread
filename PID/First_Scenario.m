@@ -5,7 +5,7 @@ while size(dir(['*.mat']),1)<10
     warning off
 
     for iteration=1:10
-        if exist('first_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
+        if exist('result/first_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
             continue
         end
         close all
@@ -180,7 +180,7 @@ while size(dir(['*.mat']),1)<10
 
         mse_storage(iteration) = mse(y-I)
         if mse_storage(iteration)~=Inf & mse_storage(iteration)<0.5
-            save('first_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
+            save('result/first_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
         end
     end
 

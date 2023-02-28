@@ -14,7 +14,7 @@ for iteration=1:10
     fprintf('The number of function evaluations is: %d\n', Output.funccount);
     fprintf('The best function value found is: %g\n', Fval);
 
-    save('second_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
+    save('result/second_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
     %% test
     I_un_std = [];
     x_std = [];

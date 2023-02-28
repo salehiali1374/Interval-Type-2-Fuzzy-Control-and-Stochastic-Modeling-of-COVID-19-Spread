@@ -14,7 +14,7 @@ for iteration=1:10
     fprintf('The number of function evaluations is: %d\n', Output.funccount);
     fprintf('The best function value found is: %g\n', Fval);
 
-    save('second_scenaio_optimization_'+string(iteration)+'q5_ka54.mat')
+    save('result/second_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
     %% test
     I_un_std = [];
     x_std = [];
@@ -175,7 +175,7 @@ for iteration=1:10
 
     mse_storage(iteration) = mse(y-I)
     if mse_storage(iteration)~=Inf & mse_storage(iteration)<0.5
-        save('second_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
+        save('result/second_scenario_optimization_'+string(iteration)+'q5_ka54.mat')
     end
 end
 
