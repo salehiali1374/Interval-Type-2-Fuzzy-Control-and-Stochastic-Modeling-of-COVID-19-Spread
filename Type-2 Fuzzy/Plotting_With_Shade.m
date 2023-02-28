@@ -8,7 +8,7 @@ I_10 = [];
 y_10 = [];
 for iteration=1:10
     %% test
-    load('first_scenario_optimization_'+ string(iteration) + '.mat');
+    load('result/first_scenario_optimization_'+ string(iteration) + '.mat');
     x = 1:1:60;
     y = 0.1*trapmf(x,[0 20 22.5 30]);
 

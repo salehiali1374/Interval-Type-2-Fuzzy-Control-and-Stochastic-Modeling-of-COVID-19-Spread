@@ -1,6 +1,6 @@
 # Interval Type-2 Fuzzy Control and Stochastic Modeling of COVID-19 Spread Based on Vaccination and Social Distancing Rates.
 
-This repository is the official implementation of [Interval Type-2 Fuzzy Control and Stochastic Modeling of COVID-19 Spread Based on Vaccination and Social Distancing Rates]().
+This repository is the official implementation of [Interval Type-2 Fuzzy Control and Stochastic Modeling of COVID-19 Spread Based on Vaccination and Social Distancing Rates](https://www.sciencedirect.com/science/article/pii/S0169260723001098).
 
 ## Abstract
 
