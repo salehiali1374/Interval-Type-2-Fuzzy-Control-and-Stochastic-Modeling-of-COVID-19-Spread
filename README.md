@@ -1,6 +1,8 @@
 # Interval Type-2 Fuzzy Control and Stochastic Modeling of COVID-19 Spread Based on Vaccination and Social Distancing Rates.
 
 This repository is the official implementation of [Interval Type-2 Fuzzy Control and Stochastic Modeling of COVID-19 Spread Based on Vaccination and Social Distancing Rates](https://www.sciencedirect.com/science/article/pii/S0169260723001098).
+### Please note that there is a typo in Eq. (2) of the paper. The corrected equation is shown below:
+![](https://github.com/salehiali1374/Interval-Type-2-Fuzzy-Control-and-Stochastic-Modeling-of-COVID-19-Spread/blob/main/images/equation%202%20typo.png?raw=true)
 
 ## Abstract
 
@@ -17,9 +19,9 @@ The results show the robustness and efficiency of the proposed method in the pre
 The proposed approach explains how we should decide on social distancing and vaccination rate policies during pandemics against the prevalent uncertainties in disease detection and reporting.
 
 ## The S2EIAR model diagram
-![](https://salehiali.ir/wp-content/uploads/2023/02/SEIAR-model-V4-Jan-23-2022-scaled.jpg)
+![](https://github.com/salehiali1374/Interval-Type-2-Fuzzy-Control-and-Stochastic-Modeling-of-COVID-19-Spread/blob/main/images/SEIAR%20model.jpg?raw=true)
 ## Structure of type-2 fuzzy controller for S2EIAR model. The dashed line shows the optimization of the fuzzy system by genetic algorithm
-![](https://salehiali.ir/wp-content/uploads/2023/02/control-block-7.jpg)
+![](https://github.com/salehiali1374/Interval-Type-2-Fuzzy-Control-and-Stochastic-Modeling-of-COVID-19-Spread/blob/main/images/control%20block.jpg?raw=true)
 
 ## Requirements
 
