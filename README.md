@@ -66,3 +66,21 @@ MSE on second scenario:
 | _0.75_                | _0.5_  | 0.8  | 1.1   | **0.26**       | **0.26**       |
 | _0.75_                | _0.75_ | 0.8  | 1.2   | **0.26**       | **0.26**       |
 | \*multiplied by 1000. |
+
+## Citation
+
+If you use this code, please cite:
+
+H. Rafiei, A. Salehi, F. Baghbani, P. Parsa, M.-R. Akbarzadeh-T. *Interval type-2 fuzzy control and stochastic modeling of COVID-19 spread based on vaccination and social distancing rates.* Computer Methods and Programs in Biomedicine, 232, 107443, 2023. https://doi.org/10.1016/j.cmpb.2023.107443
+
+```bibtex
+@article{rafiei2023interval,
+  title   = {Interval type-2 Fuzzy control and stochastic modeling of COVID-19 spread based on vaccination and social distancing rates},
+  author  = {Rafiei, H. and Salehi, A. and Baghbani, F. and Parsa, P. and Akbarzadeh-T., M.-R.},
+  journal = {Computer Methods and Programs in Biomedicine},
+  volume  = {232},
+  pages   = {107443},
+  year    = {2023},
+  doi     = {10.1016/j.cmpb.2023.107443}
+}
+```
